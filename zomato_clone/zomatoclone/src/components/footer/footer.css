@@ -1,0 +1,39 @@
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.065);
+    padding: 20px 70px;
+    font-weight: 300;
+    color: rgb(93, 92, 92);
+}
+.sub-footer{
+    width: 90%;
+}
+.sub-sub-footer{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 34px;
+}
+.logo-d{
+    height: 25px;
+    margin: 0px;
+}
+.link-logo{
+    height: 25px;
+    margin: 0px 3px;
+}
+.playstore{
+    height: 40px;
+    
+}
+.footer-heading{
+    font-weight:500;
+    font-size:16px;
+    color: black;
+}
+.last-line{
+    height:1.5px;
+    width: 100%;
+    background-color: rgb(91, 90, 90);
+}

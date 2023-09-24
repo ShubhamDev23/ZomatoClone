@@ -1,0 +1,140 @@
+.explore-card{
+    margin:12px 0px 24px 0px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    max-width: 345px;
+
+}
+.explore-card-cover{
+    height:248px;
+    width:328px;
+    border-radius: 15px;
+    position: relative;
+}
+.explore-card-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.delivery-time{
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    opacity: 0.8;
+    background-color: var(--primary-bg);
+    backdrop-filter: blur(4px);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 2px 5px 3px;
+    border-radius: 4px;
+}
+.pro-off{
+    position: absolute;
+    left: 0px;
+    bottom:40px;
+    background-color: var(--tag-red);
+    font-size: 14px;
+    border-radius:0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    font-weight: 500;
+}
+.discount{
+    position: absolute;
+    left: 0px;
+    bottom:40px;
+    background-color: var(--tag-blue);
+    font-size: 14px;
+    border-radius:0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    font-weight: 500;
+}
+.gold-off{
+    position: absolute;
+    left: 0px;
+    bottom:14px;
+    background-color: var(--tag-green);
+    font-size: 14px;
+    border-radius:0px 2px 2px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 18px;
+    font-weight: 500;
+}
+.res-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0px 6px;
+}
+.res-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--heading-text);
+}
+.res-rating{
+    padding: 0px 6px 3px;
+
+    
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: var(--primary-bg);
+    background-color: var(--tag-green);
+    border-radius: 6px;
+    height: 24px;
+}
+.rating{
+    margin-top: 4px;
+}
+.star{
+    font-size: 18px;
+}
+.res-cuisine{
+max-width: 56%;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+font-size: 14px;
+}
+.res-cuisine-tag,.approxPrice{
+    font-size: 14px;
+    color: var(--inactive-text);
+}
+.explore-bottom{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+.res-bottom-text{
+    margin-left: 8px;
+    font-size: 13px;
+    color: var(--inactive-text);
+    text-overflow: ellipsis;
+
+}
+.card-seperator{
+    height: 1px;
+    margin: 10px 0px 5px;
+    background-color: var(--border-white);
+}
+.explore-card:hover{
+    cursor: pointer;
+    background-color: var(--primary-bg);
+    border: 1px solid var(--border-white);
+    
+}
+.addcart{
+    position:relative;
+    left: 265px;
+
+}

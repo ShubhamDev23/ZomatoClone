@@ -1,0 +1,92 @@
+.signup-container,.login-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    height: 420px;
+    width:390px;
+    border: 1px solid gray;
+    border-radius:10px ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logup-logo{
+    height: 18px;
+    background-color: white;
+    color: rgb(212, 210, 210);
+}
+.commonheading{
+    position: relative;
+    bottom: 15px;
+    display: flex;
+    gap: 270px;
+    align-items: center;
+    margin-top: 0px;
+    
+}
+.log-up-heading{
+    font-weight: 500;
+}
+.logup-input{
+    width: 95%;
+    border: 1px solid rgb(212, 210, 210);
+    border-radius:5px ;
+    height: 45px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: rgb(167, 166, 166);
+}
+.create-btn{
+    width: 95%;
+    height: 45px;
+    font-size: 18px;
+    background-color: rgb(217, 216, 216);
+    border:1px solid rgb(167, 166, 166);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.logo-google{
+    height: 40px;
+}
+.google-btn{
+    margin-top: 15px;
+    width: 95%;
+    font-size: 20px;
+    background-color: white;
+    color: rgba(128, 128, 128, 0.687);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgba(128, 128, 128, 0.876);
+    cursor: pointer;
+}
+.line-or{
+    margin-top: 5px;
+    background-color: gray;
+    height: 0.5px;
+    width: 95%;
+    z-index: 1;
+    position: relative;
+    top: 13px;
+}
+.or{
+    font-size: 23px;
+    z-index: 100;
+    background-color: white;
+    color: rgba(128, 128, 128, 0.687);
+}
+.lastline{
+    position: relative;
+    right: 60px;
+    top: 40px;
+}
+.linklast{
+    color: rgb(255, 0, 140);
+    text-decoration: none;
+}
